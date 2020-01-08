@@ -1,0 +1,9 @@
+#main div{
+	max-width: 100%;
+	max-height: 100%;
+}
+img{
+	border-radius: 4rem;
+	width:20rem;
+	height: 20rem;
+}

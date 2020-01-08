@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="registration.css">
+    <script type="text/javascript">
+            function getconfirmation() {
+                var ret=confirm("Do you want to continue?");
+                if (ret==true) {
+                    alert("User wants to continue");
+                    return true;
+                }
+                else{
+                    alert("User does not wants to continue");
+                    return false;
+                }
+            }
+        </script>
+</head>
+<body>
+    <div class="jumbotron">
+    	<h1 style="text-align: center;"><strong>National Institute Of Technology, Srinagar</strong></h1>
+    </div>
+    <div class="topbar">
+        <div class="navbar-toggler" style="padding-top: 4px;">
+                <a class="dropbtn" href="home.html">Home</a>
+        </div>
+        <div class="navbar-toggler" style="padding-top: 4px;">
+                <ul>
+                    <li class="dropdown">
+                    <a href="#" class="dropbtn">Academics</a>
+                    <div class="dropdown-content">
+                        <a href="pdf/Academic_Calander2019.pdf">Academic Calender</a>
+                        <a href="fee.html">Fee-Structure</a>
+                        <a href="pdf/COURSE_UPDATED.pdf">Course-Material 2019-BATCH</a>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+        <div class="navbar-toggler" style="padding-top: 4px;">
+                <ul>
+                    <li class="dropdown" id="admisnistration">
+                        <a href="#" class="dropbtn">Administration</a>
+                        <div class="dropdown-content">
+                            <a href="director.html">Director</a>
+                            <a href="deans.html">Dean</a>   
+                            <a href="heads.html">Deans/Heads</a>
+                            <a href="bog.html" >Board of Governors</a>
+                            <a href="senate.html">Senate Committee</a>
+                            <a href="bwc.html">BWC Committee</a>
+                            <a href="finance.html">Finance Committee</a>  
+                        </div>
+                    </li>
+                </ul>
+        </div>
+        <div class="navbar-toggler" style="padding-top: 4px;">
+            <ul>
+                <li class="dropdown " id="department">
+                    <a href="#" class="dropbtn">Department</a>
+                    <div class="dropdown-content">
+                        <a href="che.html">Chemical Engineering</a>
+                        <a href="civil.html">Civil Engineering</a>
+                        <a href="CSE.html">Computer Science and Engineering</a>
+                        <a href="electrical.html">Electrical Engineering </a>
+                        <a href="ece.html">Electronics and Communication Engineering</a>
+                        <a href="mec.html">Mechanical Engineering Department</a>
+                        <a href="meta.html">Metallurgical and Materials Engineering</a>
+                        <a href="ite.html">Information Technology </a>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="navbar-toggler" style="padding-top: 4px;">
+            <ul>
+                <li class="dropdown" id="Services">
+                    <a href="#" class="dropbtn">Services</a>
+                    <div class="dropdown-content">
+                        <a href="csc.html">Computer Service Center</a>
+                        <a href="photo_gallery.html">Photo Gallery</a>
+                        <a href="library.html">Library</a>   
+                        <a href="hostels.html">Hostels</a>
+                        <a href="mess.html" >Mess</a>
+                        <a href="about.html">About</a>
+                        <a href="contacts.html">Contacts</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-toggler"style="float: right; padding-top: 4px;" >
+                <ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn" id="login" style="margin-right: 4rem;">Form</a>
+                        <div class="dropdown-content">
+                            <a href="login.html">Login</a>
+                            <a href="registration.html">Registration</a>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <br><br><br><br>
+
+        <div id="regisform">
+        	<h3 style="text-decoration-color:#3c6e50">REGISTRATION FORM:</h3>
+        	<br>
+        	<form action="#" method="get" onsubmit="getconfirmation();">
+        		<div>
+        			<label for="fname"><strong>First name:</strong></label>
+                	<input type="text" id="fname" name="firstname" required>
+                	<label for="lname" style="margin-left: 2rem;"><strong>Last name:</strong> </label>
+                	<input type="text" id="lname" name="lastname" required>
+        		</div>
+                <label for="father"><strong>Father's Name:</strong></label>
+                <input type="text" name="father" id="father">
+        		<label for="mother"><strong style="margin-left: 1.9rem;">Mother's Name:</strong></label>
+        		<input type="text" name="mother" id="mother">
+        		<br>
+        		<label for="dob"><strong>D.O.B:</strong></label>
+        		<input type="text" name="dob" id="dob">
+        		<label for="gender"><strong style="width: 2rem; margin-left: 2rem;">Gender:</strong></label>
+        		<select id="gender" name="gender" style="width: 11.3rem;">
+        			<option>Select</option>
+        			<option>Male</option>
+        			<option>Female</option>
+        			<option>Others</option>
+        		</select>
+        		<br>
+        		<label for="state"><strong>State/UT:</strong></label>
+        		<select id="state" name="state">
+        			<option>Select</option>
+        			<option>Andaman and Nicobar Islands</option>
+        			<option>Arunachal Pradesh</option>
+        			<option>Andhra Pradesh</option>
+        			<option>Assam</option>
+        			<option>Bihar</option>
+        			<option>Chattisgarh</option>
+        			<option>Chandhigarh</option>
+        			<option>Dadra and Nagar haveli</option>
+        			<option>Daman and Diu</option>
+        			<option>NCT- Delhi</option>
+        			<option>Goa</option>
+        			<option>Gujarat</option>
+        			<option>Haryana</option>
+        			<option>Himachal Pradesh</option>
+        			<option>Jammu and Kashmir</option>
+        			<option>Jharkhand</option> 
+        			<option>Karnataka</option>
+        			<option>Kerala</option>
+        			<option>Lakshadweep</option>
+        			<option>Madhya Pradesh</option>
+        			<option>Maharashtra</option>
+        			<option>Manipur</option>
+        			<option>Mizroram</option>
+        			<option>Nagaland</option>
+        			<option>Odisha</option>
+        			<option>Puducherry</option>
+        			<option>Punjab</option>
+        			<option>Rajasthan</option>
+        			<option>Sikkim</option>
+        			<option>Tamil Nadu</option>
+        			<option>Telangana</option>
+        			<option>Tripura</option>
+        			<option>Uttarakhand</option>
+        			<option>Uttar Pradesh</option>
+        			<option>West Bengal</option>
+        		</select>
+        		<label for="category"><strong style="width: 1.9rem; margin-left: 1.9rem;">Category:</strong></label>
+        		<select id="category" name="category" style="margin-left: 2.8rem; width: 11.3rem;">
+        			<option>Select</option>
+        			<option>General</option>
+        			<option>SC/ST</option>
+        			<option>OBC</option>
+        			<option>PWD</option>
+        		</select>
+        		<br>
+        		<label for="branch"><strong>Branch:</strong></label>
+        		<select id="branch" name="branch">
+        			<option>Select</option>
+        			<option>Civil Engineering</option>
+        			<option>Electrical Engineering</option>
+        			<option>Mechanical Engineering</option>
+        			<option>Computer Science Engineering</option>
+        			<option>Chemical Engineering</option>
+        			<option>Electronics and Communications Engineering</option>
+        			<option>IT Engineering</option>
+        			<option>Metallurgy Engineering</option>
+        		</select>
+        		<br>
+        		<label for="email"><strong>E-mail:</strong></label>	
+        		<input type="E-mail" name="email" id="email" required>
+        		<br>
+        		<label for="contact"><strong>Contact No.:</strong></label>
+        		<input type="Contact" name="contact" id="contact">
+        		<br>
+        		<label for="address"><strong>Address:</strong></label>
+        		<input type="Address" name="address" id="address">
+        		<br><br>
+        		<div id="formsub">
+        			<input type="Submit" name="Submit your form." style="margin-left: 15rem;padding: .5rem;">
+        			<input type="Reset" name="Reset your form." style="padding: .5rem;">
+        		</div>
+        		
+
+        	</form>
+        </div>
+</body>
+<footer id="thisfooter">
+	Registration Form
+	<span style="float: right;">copyright@mahin</span>
+</footer>
+</html>

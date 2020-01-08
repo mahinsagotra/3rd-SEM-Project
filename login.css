@@ -1,0 +1,27 @@
+#loginform{
+	text-align: center;
+}
+#course{
+	text-align: relative;
+}
+#Login{
+	margin: 5px;
+}
+button{
+	margin: 3px;
+	padding: 0.4rem;
+}
+#Passw{
+	background-color: rgba(248,249,250,054);
+}
+#regis{
+	background-color: rgba(248,249,250,054);	
+}
+h3{
+	color: white;
+	background-color: #3c6e50;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	text-align: center !important;
+	border-radius: 5px;
+}

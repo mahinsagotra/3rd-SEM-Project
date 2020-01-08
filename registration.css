@@ -1,0 +1,69 @@
+#fname{
+	background-color: rgba(248,249,250,054);
+	margin-left: 1.8rem;
+}
+#lname{
+	background-color: rgba(248,249,250,054);
+	margin-left: 2.3rem;
+}
+#father{
+	background-color: rgba(248,249,250,054);	
+}
+#mother{
+	background-color: rgba(248,249,250,054);
+}
+#dob{
+	background-color: rgba(248,249,250,054);
+	margin-left: 4rem;
+}
+#gender{
+	background-color: rgba(248,249,250,054);
+	margin-left: 3.7rem;
+}
+
+.formsub{
+	padding: 2px;
+	align-self: center;
+	align-content: center;
+	font-weight: bold;
+}
+
+#regisform{
+	text-align: left;
+	margin-left: 8rem;
+}
+#state{
+	background-color: rgba(248,249,250,054);
+	margin-left: 2.4rem;
+	width: 11.5rem;
+}
+#category{
+	background-color: rgba(248,249,250,054);
+}
+#branch{
+	background-color: rgba(248,249,250,054);
+	margin-left: 3.3rem;
+	width: 11.4rem;
+}
+#email{
+	background-color: rgba(248,249,250,054);
+	margin-left: 3.6rem;
+}
+#contact{
+	background-color: rgba(248,249,250,054);
+	margin-left: .9rem;
+}
+#address{
+	background-color: rgba(248,249,250,054);
+	margin-left: 2.7rem;
+}
+#logo{
+	max-width: 3%;
+	max-height: 5%;
+}
+h3{
+	color: white;
+	background-color: #3c6e50;
+	margin-right: 55rem;
+	border-radius: 5px;
+}
